@@ -2,7 +2,7 @@
  * @Author: chenzebiao 
  * @Date: 2019-04-07 23:22:40 
  * @Last Modified by: chenzebiao
- * @Last Modified time: 2019-04-09 23:47:20
+ * @Last Modified time: 2019-04-09 23:53:51
  */
 
 
@@ -78,11 +78,13 @@ const listNode = addTwoNumbers(l11, l21);
 display(listNode);
 
 
+// 测试用例 [5] [5]
 // const l1 = new ListNode(5);
 // const l2 = new ListNode(5);
 // const listNode = addTwoNumbers(l1, l2);
 // display(listNode);
 
+// 测试用例 [1,8] [0]
 // const l1 = new ListNode(1);
 // const l11 = new ListNode(8);
 // l1.next = l11;
